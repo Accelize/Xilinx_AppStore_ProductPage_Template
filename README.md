@@ -7,7 +7,7 @@ A Xilinx App Store Product Page is generated automatically from two kind of inpu
 ## The Definition File
 A Yaml file containing business and marketing information about your application
 
-You can find the template in [template/vendor-name_app-name.yaml](template/vendor-name_app-name.yaml)
+You can find the template in [template/vendor-name_app-name/vendor-name_app-name.yaml](template/vendor-name_app-name/vendor-name_app-name.yaml)
 
 ### How-to fill the Definition File:
 1. Replace strings "vendor-name" and "app-name" 
