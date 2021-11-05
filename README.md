@@ -53,6 +53,9 @@ Read More: [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 You can find example Definition and Instruction file here:
 [examples/xilinx_vitisai](examples/xilinx_vitisai)
 
+That generates the following Product page on the Xilinx App Store:
+[Xilinx App Store - Vitis AI v1.4](https://appstore.xilinx.com/products/acceleration-solutions/vitis-ai-v1_4.html)
+
 
 ## Product Page Definition and instructions files Delivery
 Once updated, please share the Product Page Definition and instructions files within a .zip or .tar.gz/.tgz archive with following hierarchy:

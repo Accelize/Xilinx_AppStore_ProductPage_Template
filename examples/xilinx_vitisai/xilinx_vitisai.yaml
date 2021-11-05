@@ -1,15 +1,5 @@
 ---
-# Xilinx Vitis AI Definition file
-#
-# Italics:                      *text*
-# Bold:                         **text**
-# Code:                         `make clean all`
-# Links:                        '[text](https://www.google.com)'
-# Embedded Image/Video:         ![tooltip](assets/<filename.png>)
-# Collateral Download link:     ![tooltip](collaterals/<filename>)
-# Unordered List:               + Item 1
-#                               + Item 2
-# Horizontal Line (hr)          ---
+# Definition file
 
 ### Application Summary
 logo:
