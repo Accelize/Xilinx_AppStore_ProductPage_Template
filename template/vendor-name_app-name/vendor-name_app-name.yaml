@@ -1,0 +1,42 @@
+# Xilinx App Store - Product Page Definition file
+##################################################
+
+### Application Summary
+logo:
+  type: png
+  url: assets/vendor-name_app-name/logo.png
+title: TODO
+summary: TODO
+vendor: '[vendor-name](https://www.vendor-name.com/)'
+last_update: TODO
+size: TODO
+container_version: TODO
+collaterals:
+  - link_title: "> Download Solution Brief"
+    link_url: DO_NOT_CHANGE
+  - link_title: "> Download User Guide"
+    link_url: DO_NOT_CHANGE
+
+### Try or Buy CTA URLs
+try: DO_NOT_CHANGE
+buy: DO_NOT_CHANGE
+
+### Deployment Options
+DeploymentOptions:
+  Cloud Services:
+    AWS F1:
+      Instance type: TODO
+  On Premises:
+    Alveo U200:
+      View & Buy Product: DO_NOT_CHANGE
+      Xilinx Runtime: TODO
+      Target Platform: TODO
+
+### Test Drive
+TestDrive: N/A
+GUI: N/A
+
+### Paths to Markdown Instructions
+Instructions:
+  How It Works: instructions/how_it_works/how_it_works.md
+  Alveo U200: instructions/vendor-name_app-name/alveo_u200.md

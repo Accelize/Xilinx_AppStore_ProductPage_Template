@@ -1,0 +1,116 @@
+---
+# Xilinx Vitis AI Definition file
+#
+# Italics:                      *text*
+# Bold:                         **text**
+# Code:                         `make clean all`
+# Links:                        '[text](https://www.google.com)'
+# Embedded Image/Video:         ![tooltip](assets/<filename.png>)
+# Collateral Download link:     ![tooltip](collaterals/<filename>)
+# Unordered List:               + Item 1
+#                               + Item 2
+# Horizontal Line (hr)          ---
+
+### Application Summary
+logo:
+  type: png
+  url: assets/xilinx_vitisai/xilinx_logo.jpg
+title: Vitis AI v1.4
+summary: Vitis AI is accelerates AI inference on Xilinx hardware platforms, including both edge devices and Alveo cards. It consists of optimized IP, tools, libraries, models, and example designs. It is designed with high efficiency and ease of use in mind, unleashing the full potential of AI acceleration on Xilinx FPGA and ACAP.
+vendor: '[Xilinx](https://www.xilinx.com/)'
+last_update: Oct 19, 2021
+size: 3.25 GB
+container_version: hubxilinx/xilinx_vitisai:latest
+collaterals: N/A
+
+### Try or Buy CTA URLs
+try: N/A
+buy: N/A
+
+### Deployment Options
+DeploymentOptions:
+  Cloud Services: N/A
+  On Premises:
+    Alveo U50:
+      View & Buy Product: https://www.xilinx.com/products/boards-and-kits/alveo/u50.html
+      Xilinx Runtime: 2021.1
+      Target Platform: xilinx-u50-gen3x4-xdma-base-2-2902115
+    Alveo U50LV:
+      View & Buy Product: https://www.xilinx.com/products/boards-and-kits/alveo/u50.html#buy-from-xilinx
+      Xilinx Runtime: 2021.1
+      Target Platform: xilinx-u50lv-gen3x4-xdma-base-2-2902115
+    Alveo U200:
+      View & Buy Product: https://www.xilinx.com/products/boards-and-kits/alveo/u200.html
+      Xilinx Runtime: 2021.1
+      Target Platform: xilinx_u200_gen3x16_xdma_base_1
+    Alveo U250:
+      View & Buy Product: https://www.xilinx.com/products/boards-and-kits/alveo/u250.html
+      Xilinx Runtime: 2021.1
+      Target Platform: xilinx_u250_gen3x16_xdma_shell_3_1
+    Alveo U280:
+      View & Buy Product: https://www.xilinx.com/products/boards-and-kits/alveo/u280.html
+      Xilinx Runtime: 2021.1
+      Target Platform: xilinx-u280-xdma-201920.3-2789161
+    VCK5000:
+      View & Buy Product: https://www.xilinx.com/products/boards-and-kits/vck5000.html
+      Xilinx Runtime: 2021.1
+      Target Platform: xilinx-vck5000-es1-gen3x16-platform-2-1
+
+### Test Drive
+GUI:
+  title: Xilinx Vitis AI v1.4
+  isv_eula: false
+  isv_eula_link: N/A
+  sample sets:
+    sample set 1:
+      widget: file_sample
+      widget_label: "vitisai_sample_files.tgz"
+      widget_description: "A set of sample image files"
+      widget_input: inputs.data
+      actuator:
+        widget: link
+        label: "DOWNLOAD PREVIEW"
+        url: "https://virtualcloud.accelize.com/d/vitisai_sample_files.tgz"
+    sample set 2:
+      widget: file_custom
+      widget_label: "Custom"
+      widget_description: "Input pictures (.tgz Archive)"
+      widget_input: inputs.data
+      actuator:
+        widget: file_browser
+        widget_label: "UPLOAD ARCHIVE"
+        widget_extensions: [".tgz"]
+  full_version_banner:
+    header: "Get the FULL version"
+    label1: "Unlimited executions"
+    label2: "Run on any Alveo board"
+    label3: "Integrable to your design"
+application:
+  name: Vitis AI v1.4
+  description: Vitis AI is accelerates AI inference on Xilinx hardware platforms, including both edge devices and Alveo cards.
+  version: 1.0.0
+  vendor: Xilinx
+inputs:
+  data:
+    type: archive
+    name: "Input Pictures"
+    description: "Input Files to use"
+    min: 1
+    max: 1073741824
+    container_path: "/input_dir"
+    default: vitisai_sample_files.tgz
+outputs:
+  result:
+    type: archive
+    name: "Output Pictures"
+    description: "Input pictures with object detection overlay"
+    container_path: "/output_dir"
+env:
+  container_image: hubxilinx/xilinx_vitisai
+  engine: "aws-f1.2xlarge-2021.1"
+  args: []
+  timeout: 300
+  
+### Running the Application
+Instructions:
+  Alveo U50/U50LV/U200/U250/U280/VCK5000: instructions/xilinx_vitis_ai/alveo_u50_u50lv_u200_u250_u280_vck5000.md
