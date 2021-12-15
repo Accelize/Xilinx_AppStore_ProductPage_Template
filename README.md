@@ -48,8 +48,6 @@ Read More: [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
 &#x26a0;&#xfe0f; Every Instruction File must start with a TAG (e.g: [[[ALVEO_HOST_SETUP_SECTION]]]) that will be replaced by a pre-existing text snippet, specific to the targeted environment. List of TAGS can be found here: [instruction_tags/README.md](instruction_tags/README.md)
 
-&#x26a0;&#xfe0f; You can't use Heading level one (#). The highest level usable is level 2 (##)
-
 &#x26a0;&#xfe0f; You can only embed one picture per section. This picture will be place on the right side of Product Page.
 
 ## Example files
