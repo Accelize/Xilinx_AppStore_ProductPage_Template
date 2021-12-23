@@ -10,4 +10,6 @@
 
 + Azure NP10 TAG: Coming Soon
 
-+ VmAccel TAG: Coming Soon
++ VMAccel TAG:
+  + TAG: **[[[VMACCEL_ALVEO_HOST_SETUP_SECTION]]]**
+  + Content: [vmaccel_alveo_host_setup_section.md](vmaccel_alveo_host_setup_section.md)
