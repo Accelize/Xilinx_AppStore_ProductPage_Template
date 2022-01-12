@@ -1,8 +1,12 @@
 # List of Instruction TAGs and their content
 
-+ Alveo Board:
++ Alveo Board (Except U30):
   + TAG: **[[[ALVEO_HOST_SETUP_SECTION]]]**
   + Content: [alveo_host_setup_section.md](alveo_host_setup_section.md)
+  
++ Alveo U30 Board:
+  + TAG: **[[[ALVEO_U30_HOST_SETUP_SECTION]]]**
+  + Content: [alveo_u30_host_setup_section.md](alveo_u30_host_setup_section.md)
 
 + AWS F1:
   + TAG: **[[[AWS_F1_HOST_SETUP_SECTION]]]**
